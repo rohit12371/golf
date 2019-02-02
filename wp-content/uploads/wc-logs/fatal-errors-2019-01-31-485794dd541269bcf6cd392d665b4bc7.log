@@ -1,0 +1,4 @@
+2019-01-31T08:35:44+00:00 CRITICAL Call to undefined function base_url() in C:\xampp\htdocs\golf-1\wp-content\themes\golfcourse\templates\book-a-tee-time.php on line 135
+
+2019-01-31T09:54:44+00:00 CRITICAL Call to undefined function do_shotcode() in C:\xampp\htdocs\golf-1\wp-content\themes\golfcourse\header.php on line 24
+

@@ -1,0 +1,4 @@
+2019-01-14T12:28:15+00:00 CRITICAL syntax error, unexpected ':' in C:\xampp\htdocs\golf\wp-content\plugins\widget-logic\widget_logic.php(461) : eval()'d code on line 1
+
+2019-01-14T12:22:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\golf\wp-content\themes\uplands\lib\comments.php on line 7
+

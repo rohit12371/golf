@@ -1,0 +1,112 @@
+body{background:#000; overflow-x:hidden;}
+.logo img{ width:220px;}
+.spacer0{padding:0px; margin:0px;}
+.heading{color: #fff;visibility: visible; text-shadow: 1px 1px 1px #000; font-family: 'Fjalla One', sans-serif; padding:20px 0px;}
+.header{ background:#242424; height:100px; border-bottom:2px solid #fff; width:100%;}
+.navbar-inverse {background-color:transparent!important; border:none; position:relative; top:0px;}
+.navbar-nav{position:relative; top:21px;}
+.navbar-collapse{ width:80%; display:inline; overflow:hidden;}
+.navbar-collapse li a{ color:#FFFFFF!important; text-transform:uppercase; font-size:16px; }
+.navbar-nav li a{font-family: 'Fjalla One', sans-serif!important;}
+.portfolio-box li{ background: #333; border: 4px solid #fff; position: relative;-webkit-backface-visibility:hidden;}
+.portfolio-box li { max-width: 49.8%; margin: 0px; padding: 0px; z-index: 100; margin: 0px auto; border: 2px solid #FFFFF1; padding-left: 0px; padding-right: 0px; cursor: pointer; z-index: 0; height: 363px;}
+.portfolio-box .portfolio-box-in {left: 0; top: 90%; z-index: 1; width: 100%; visibility: visible;min-height: 150px; margin-top: -75px; text-align: center; position: absolute;font-family: "Open Sans", Arial, sans-serif;}
+.portfolio-box li a img {height: 357px; width: 100%;}
+.portfolio-box .portfolio-box-in p, .portfolio-box .portfolio-box-in h1 { color: #fff; visibility: visible;text-shadow: 1px 1px 1px #000;}
+.portfolio-box-in h1 { color: #fff!important; visibility: visible;text-shadow: 1px 1px 1px #000; font-family: 'Fjalla One', sans-serif!important;}
+.dropdown-menu{background:#242424;}
+.btncourse-1{ color:#FFFFFF; text-transform:uppercase; border:1px solid #fff; padding:6px 25px; z-index:1000; margin-top:120px; font-size:21px; background:#000;}
+.btncourse-1:hover{ color:#FFFFFF; background:#000; text-decoration:none;}
+.btncourse{ color:#FFFFFF; text-transform:uppercase; border:1px solid #fff; padding:6px 9px; z-index:1000;  float:right; font-family: 'Fjalla One', sans-serif;}
+.btncourse:hover{ color:#FFFFFF; text-decoration:none;}
+.btncourse:active{ color:#FFFFFF; text-decoration:none;}
+.btncourse:nth-child(1){ position:relative; left:-211px; top:0px;}
+.btncourse:nth-child(2){ position:relative; left:-219px; top:0px;}
+.btncourse:nth-child(3){ position: relative;left: -229px;top: 0px;}
+.nav>li>a {position: relative; display: block; padding: 10px 15px;}
+.footer {background:#000000; color: #fff; padding: 0; margin-top: -1px; border-top: 2px solid #fff; padding-top:42px;}
+.footer .widget-title, .footer h3.widget-title {padding-bottom: 0px!important;margin-bottom: 18px;}
+.footer .widget {text-align: left;margin-bottom: 40px;}
+.footer .soc-widget {margin-top: 8px;}
+.th-lower-footer p, .th-lower-footer a, .th-lower-footer ul li, .th-lower-footer ol li, .th-lower-footer .soc-widget i {color: #fff;}
+.footer .soc-widget {margin-top: 8px;}
+.footer .soc-widget i:hover {opacity: 0.75;}
+.soc-widget i, .soc-widget a i { font-size: 20px; margin: 0; padding: 0 10px 10px 0 !important;}
+.th-widget-area .widget ul { margin: 0; padding: 0;}
+.th-upper-footer h1.widget-title, .th-upper-footer h2.widget-title, .th-upper-footer h3.widget-title, .th-upper-footer h4.widget-title, .th-upper-footer h5.widget-title, .th-upper-footer h6.widget-title, .th-upper-footer a{
+    color: #fff;
+	list-style:none;
+	font-family: 'Fjalla One', sans-serif;
+}
+.th-upper-footer h1.widget-title, .th-upper-footer h2.widget-title, .th-upper-footer h3.widget-title, .th-upper-footer h4.widget-title, .th-upper-footer h5.widget-title, .th-upper-footer h6.widget-title, .th-upper-footer a:hover{
+    text-decoration:none;
+	font-family: 'Fjalla One', sans-serif;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #242424;
+}
+.sub-menu{ display:none;}
+.sub-menu li{ background:#242424; width: 152px; list-style:none; padding:6px 6px 6px 6px; border-bottom:1px solid #fff;}
+#menu-primary li:hover .sub-menu{ display:block; position:fixed;}
+.btn-default{ top-bottom:120px; background:#000; color:#FFFFFF; margin-bottom:20px;  border-radius:52px;}
+.btn-default:hover{ top-bottom:120px; background:#000; color:#FFFFFF;}
+.btn-default:focus{ top-bottom:120px; background:#000; color:#FFFFFF;}
+.heading-title{margin:220px; visibility: visible; text-shadow: 1px 1px 1px #000;font-family: 'Fjalla One', sans-serif!important;}
+.heading-title-sub{display:block; position:relative; top:-7px; font-family: 'Fjalla One', sans-serif!important;}
+@media screen and (max-width:760px) {
+  .portfolio-box li{
+     min-width:100%!important;
+  }
+  .btncourse:nth-child(2) {
+    position: relative;
+    top: -66px!important;
+	left:0px!important;
+  } 
+  .btncourse:nth-child(1) {
+    position: relative;
+    left:5px; 
+    top:-66px;
+  } 
+  .heading-title{margin:220px 0px; visibility: visible; text-shadow: 1px 1px 1px #000;font-family: 'Fjalla One', sans-serif!important;
+  }
+  .portfolio-box .portfolio-box-in {
+    left: 0;
+    top: 90%;
+    z-index: 1;
+    width: 100%;
+    visibility: visible;
+    min-height: 150px;
+    margin-top: -140px;
+    text-align: center;
+    position: absolute;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+  .logo img{ width:120px;}
+}
+.cart-empty{ display:inline; color:#fff!important;
+    text-transform: uppercase!important;
+    border: 1px solid #fff!important;
+    padding:7px 9px!important;
+	position:relative!important;
+	top:12px!important;
+	font-family: 'Fjalla One', sans-serif!important;
+	left:270px!important;
+	top:8px!important;
+	margin-bottom:200px!important;
+}
+.woocommerce ul.products li{ width:30.33%; float:left; text-align:center; font-family: 'Fjalla One', sans-serif!important;}
+.woocommerce ul.products li h2{font-size:21px!important;}
+@media (min-width: 768px){
+.woocommerce ul.products li.product, .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
+    width: 33.33%;
+    margin-right: 4%;
+}}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: left;
+    margin: 0 3.8% 2.992em 0;
+    padding: 0;
+    position: relative;
+    width: 29.05%;
+    margin-left: 0;
+}

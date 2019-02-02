@@ -1,0 +1,6 @@
+2019-01-30T11:59:00+00:00 CRITICAL syntax error, unexpected '{' in C:\xampp\htdocs\golf-1\wp-content\themes\golfcourse\templates\book-a-tee-time.php on line 135
+
+2019-01-30T11:59:11+00:00 CRITICAL syntax error, unexpected '{' in C:\xampp\htdocs\golf-1\wp-content\themes\golfcourse\templates\book-a-tee-time.php on line 135
+
+2019-01-30T12:08:17+00:00 CRITICAL Call to undefined method wpdb::last_query() in C:\xampp\htdocs\golf-1\wp-content\themes\golfcourse\functions.php on line 241
+
